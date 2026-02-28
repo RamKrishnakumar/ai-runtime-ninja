@@ -6,6 +6,7 @@
 *.lo
 *.o
 *.obj
+*.a
 
 # Precompiled Headers
 *.gch
@@ -16,6 +17,8 @@
 
 # Debugger Files
 *.pdb
+*.dSYM/
+*.stackdump
 
 # Compiled Dynamic libraries
 *.so
@@ -39,3 +42,17 @@
 
 # debug information files
 *.dwo
+
+# Build folders
+build/
+dist/
+
+#VS Code
+.vscode/
+
+# Node (for later)
+node_modules/
+
+#Pyhton (for later ML infra)
+__pycache__/
+*.pyc
